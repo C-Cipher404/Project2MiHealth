@@ -18,7 +18,6 @@ body {
 .title a {
     font-size: 1.5em;
     font-weight: bold;
-    color: #6dc067; 
     text-decoration: none;
 }
 
@@ -83,4 +82,51 @@ body {
     font-size: 1.2em;
     font-weight: bold;
     margin-top: 10px;
+}
+.whitetag {
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:white;
+}
+.greentag{
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:#8CC627;
+    width: 55%;
+}
+.mired{
+    color:#CE2021;
+}
+.healthgreen{
+    color: #8CC627;
+}
+.container3 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 475px;
+    width: 300px;
+    align-items: flex-end;
+}
+
+.container3 div p{ 
+    margin: 0;
+    padding: 12px;
+    text-align: right;
+
+}
+.dinnerbackground{
+    background-image: url("https://mtec.instructure.com/users/1655453/files/97536514/preview?verifier=QeYxnovrAJerviKMdtUTXdhxkXmxB3YEkbLtaS38");
+    background-size: cover;
+}
+.lunchbackground{
+    background-image: url("https://mtec.instructure.com/users/1655453/files/97536496/preview?verifier=VK9OiU1UaPH9JOuib0r3uToB6TFhYiHLHgPO8msU" );
+    background-size: cover;
+}
+.breakfastbackground{
+    background-image: url("https://mtec.instructure.com/users/1655453/files/97536492/preview?verifier=6tEbdvAvl1QDIBpmCM7JsUVxgKimV50UJT2U9ivP");
+    background-size: cover;
+}
+.title, .container1{
+    margin-left: 40px;
 }
